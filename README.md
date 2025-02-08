@@ -1,7 +1,7 @@
 # Designex
 
 Mix tasks for installing and invoking [designex](https://github.com/netoum/designex_cli) via the
-stand-alone [designex cli](https://github.com/netoum/designex_cli/releases/tag/v.0.0.1)
+stand-alone [designex cli](https://github.com/netoum/designex_cli/releases/tag/v1.0.2)
 
 ## Installation
 
