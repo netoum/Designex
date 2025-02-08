@@ -1,4 +1,3 @@
-Mix.Task.rerun("designex.install", ["--if-missing"])
 
 ExUnit.start()
 

@@ -1,5 +1,5 @@
 defmodule DesignexTest do
-  use ExUnit.Case, async: false
+  use ExUnit.Case
 
   @version Designex.latest_version()
   @commit Designex.latest_commit()
