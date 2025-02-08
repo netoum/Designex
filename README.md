@@ -156,12 +156,6 @@ configuration in your `config/dev.exs` and add:
 
 Note we are enabling the file system watcher.
 
-Finally, run the command:
-
-```bash
-$ mix designex default
-```
-
 This command installs the Design tokens and scripts.
 It also generates a default configuration file called
 `designex.config.js` for you. This is the file we referenced
