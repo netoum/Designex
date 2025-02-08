@@ -18,7 +18,7 @@ defmodule Designex do
   ```elixir
   def deps do
   [
-    {:designex, "~> 1.0.2", runtime: Mix.env() == :dev}
+    {:designex, "~> 1.0", runtime: Mix.env() == :dev}
   ]
   end
   ```
@@ -29,7 +29,7 @@ defmodule Designex do
   ```elixir
   def deps do
   [
-    {:designex, "~> 1.0.2", only: :dev}
+    {:designex, "~> 1.0", only: :dev}
   ]
   end
   ```
