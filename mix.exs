@@ -49,7 +49,7 @@ defmodule Designex.MixProject do
   defp deps do
     [
       {:castore, ">= 0.0.0"},
-      {:ex_doc, ">= 0.0.0", only: :docs}
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
