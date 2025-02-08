@@ -134,7 +134,7 @@ You can choose the template and directory by adding them to your designex profil
     --template="shadcn/style-dictionary
   )
     ]
-
+```
 ## Watch Mode
 
 For development, we want to enable watch mode. So find the `watchers`
