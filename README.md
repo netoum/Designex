@@ -32,7 +32,22 @@ Once installed, change your `config/config.exs` to pick your
 designex version of choice:
 
 ```elixir
-config :designex, version: "1.0.2"
+config :designex,
+  version: "1.0.2",
+  commit: "1da4b31",
+  cd: Path.expand("../assets", __DIR__),
+  dir: "design",
+  demo: [
+    setup_args: ~w(
+    --dir=demo
+    --template=shadcn/tokens-studio/single
+  ),
+    build_args: ~w(
+    --dir=demo
+    --script=build.mjs
+    --tokens=tokens
+  )
+  ]
 ```
 
 Now you can install designex by running:
@@ -73,13 +88,6 @@ directory, the OS environment, and default arguments to the
 `designex` task:
 
 ```elixir
-# Configure designex (the version and commit are required)
-config :designex,
-  version: "1.0.2",
-  commit: "1da4b31",
-
-  cd: Path.expand("../assets", __DIR__),
-  dir: "design",
   demo: [
     setup_args: ~w(
     --dir=demo
@@ -90,10 +98,21 @@ config :designex,
     --script=build.mjs
     --tokens=tokens
   )
+  ],
+  email: [
+    setup_args: ~w(
+    --dir=email
+    --template=shadcn/tokens-studio/multi
+  ),
+    build_args: ~w(
+    --dir=email
+    --script=build.mjs
+    --tokens=tokens
+  )
   ]
 ```
 
-When `mix designex default` is invoked, the task arguments will be appended
+When `mix designex demo` is invoked, the task arguments will be appended
 to the ones configured above. Note profiles must be configured in your
 `config/config.exs`, as `designex` runs without starting your application
 (and therefore it won't pick settings in `config/runtime.exs`).
@@ -103,38 +122,29 @@ to the ones configured above. Note profiles must be configured in your
 To setup Invoke Designex Setup with your profile:
 
 ```bash
-$ mix designex.setup default
+$ mix designex.setup demo
+$ mix designex.setup email
+
 ```
 
 You can choose the template and directory by adding them to your designex profile
-```elixir
-  default: [
-    args: ~w(
-    --config=designex.config.json
-    --dir=default
-    --template="shadcn/style-dictionary
-  )
-    ]
-```
+
 
 ## Designex build
 To setup Invoke Designex Build with your profile:
 
 ```bash
-$ mix designex.build default
-OR
-$ mix designex default
+$ mix designex demo
+$ mix designex email
+```
+or
+```bash
+$ mix designex.build demo
+$ mix designex.build email
 ```
 
 You can choose the template and directory by adding them to your designex profile
-```elixir
-  default: [
-    args: ~w(
-    --dir=default
-    --template="shadcn/style-dictionary
-  )
-    ]
-```
+
 ## Watch Mode
 
 For development, we want to enable watch mode. So find the `watchers`
