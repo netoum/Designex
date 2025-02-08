@@ -31,7 +31,10 @@ defmodule Designex.MixProject do
     [
       maintainers: ["Karim Semmoud"],
       licenses: ["MIT"],
-      files: ~w(lib mix.exs README.md .formatter.exs)
+      files: ~w(lib mix.exs README.md .formatter.exs),
+      links: %{
+        "GitHub" => @source_url
+      },
     ]
   end
 
