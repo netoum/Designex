@@ -1,4 +1,3 @@
-
 ExUnit.start()
 
 ExUnit.after_suite(fn _suite_result ->
