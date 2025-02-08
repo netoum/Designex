@@ -12,7 +12,7 @@ in dev:
 ```elixir
 def deps do
   [
-    {:designex, "~> 1.0.2", runtime: Mix.env() == :dev}
+    {:designex, "~> 1.0", runtime: Mix.env() == :dev}
   ]
 end
 ```
@@ -23,7 +23,7 @@ then it only needs to be a dev dependency:
 ```elixir
 def deps do
   [
-    {:designex, "~> 1.0.2", only: :dev}
+    {:designex, "~> 1.0", only: :dev}
   ]
 end
 ```
