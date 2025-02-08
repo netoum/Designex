@@ -22,7 +22,7 @@ defmodule Designex.MixProject do
         main: "Designex",
         source_url: @source_url,
         source_ref: "v#{@version}"
-        ],
+      ],
       aliases: aliases()
     ]
   end
@@ -34,7 +34,7 @@ defmodule Designex.MixProject do
       files: ~w(lib mix.exs README.md .formatter.exs),
       links: %{
         "GitHub" => @source_url
-      },
+      }
     ]
   end
 
