@@ -21,9 +21,8 @@ defmodule Designex.MixProject do
       docs: [
         main: "Designex",
         source_url: @source_url,
-        source_ref: "v#{@version}",
-        extras: ["CHANGELOG.md"]
-      ],
+        source_ref: "v#{@version}"
+        ],
       aliases: aliases()
     ]
   end
@@ -32,7 +31,7 @@ defmodule Designex.MixProject do
     [
       maintainers: ["Karim Semmoud"],
       licenses: ["MIT"],
-      files: ~w(lib CHANGELOG.md LICENSE.md mix.exs package.json README.md .formatter.exs)
+      files: ~w(lib mix.exs README.md .formatter.exs)
     ]
   end
 
