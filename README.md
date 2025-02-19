@@ -156,11 +156,7 @@ configuration in your `config/dev.exs` and add:
 
 Note we are enabling the file system watcher.
 
-This command installs the Design tokens and scripts.
-It also generates a default configuration file called
-`designex.config.js` for you. This is the file we referenced
-when we configured `designex` in `config/config.exs`. See
-`mix help designex.install` to learn more.
+This command installs the Design tokens and scripts, run the script and watch changes for the tokens
 
 ## License
 
