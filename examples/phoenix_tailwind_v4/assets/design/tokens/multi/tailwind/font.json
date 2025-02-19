@@ -1,0 +1,78 @@
+{
+  "font": {
+    "sans": {
+      "value": [
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji"
+      ],
+      "type": "fontFamily"
+    },
+    "serif": {
+      "value": [
+        "ui-serif",
+        "Georgia",
+        "Cambria",
+        "Times New Roman",
+        "Times",
+        "serif"
+      ],
+      "type": "fontFamily"
+    },
+    "mono": {
+      "value": [
+        "ui-monospace",
+        "SFMono-Regular",
+        "Menlo",
+        "Monaco",
+        "Consolas",
+        "Liberation Mono",
+        "Courier New",
+        "monospace"
+      ],
+      "type": "fontFamily"
+    }
+  },
+  "font-weight": {
+    "thin": {
+      "value": 100,
+      "type": "fontWeight"
+    },
+    "extralight": {
+      "value": 200,
+      "type": "fontWeight"
+    },
+    "light": {
+      "value": 300,
+      "type": "fontWeight"
+    },
+    "normal": {
+      "value": 400,
+      "type": "fontWeight"
+    },
+    "medium": {
+      "value": 500,
+      "type": "fontWeight"
+    },
+    "semibold": {
+      "value": 600,
+      "type": "fontWeight"
+    },
+    "bold": {
+      "value": 700,
+      "type": "fontWeight"
+    },
+    "extrabold": {
+      "value": 800,
+      "type": "fontWeight"
+    },
+    "black": {
+      "value": 900,
+      "type": "fontWeight"
+    }
+  }
+}

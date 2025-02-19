@@ -1,0 +1,156 @@
+{
+  "text": {
+    "xs": {
+      "value": "0.75rem",
+      "type": "dimension"
+    },
+    "xs--line-height": {
+      "value": "calc(1 / 0.75)",
+      "type": "dimension"
+    },
+    "sm": {
+      "value": "0.875rem",
+      "type": "dimension"
+    },
+    "sm--line-height": {
+      "value": "calc(1.25 / 0.875)",
+      "type": "dimension"
+    },
+    "base": {
+      "value": "1rem",
+      "type": "dimension"
+    },
+    "base--line-height": {
+      "value": "calc(1.5 / 1)",
+      "type": "dimension"
+    },
+    "lg": {
+      "value": "1.125rem",
+      "type": "dimension"
+    },
+    "lg--line-height": {
+      "value": "calc(1.75 / 1.125)",
+      "type": "dimension"
+    },
+    "xl": {
+      "value": "1.25rem",
+      "type": "dimension"
+    },
+    "xl--line-height": {
+      "value": "calc(1.75 / 1.25)",
+      "type": "dimension"
+    },
+    "2xl": {
+      "value": "1.5rem",
+      "type": "dimension"
+    },
+    "2xl--line-height": {
+      "value": "calc(2 / 1.5)",
+      "type": "dimension"
+    },
+    "3xl": {
+      "value": "1.875rem",
+      "type": "dimension"
+    },
+    "3xl--line-height": {
+      "value": "calc(2.25 / 1.875)",
+      "type": "dimension"
+    },
+    "4xl": {
+      "value": "2.25rem",
+      "type": "dimension"
+    },
+    "4xl--line-height": {
+      "value": "calc(2.5 / 2.25)",
+      "type": "dimension"
+    },
+    "5xl": {
+      "value": "3rem",
+      "type": "dimension"
+    },
+    "5xl--line-height": {
+      "value": "1",
+      "type": "dimension"
+    },
+    "6xl": {
+      "value": "3.75rem",
+      "type": "dimension"
+    },
+    "6xl--line-height": {
+      "value": "1",
+      "type": "dimension"
+    },
+    "7xl": {
+      "value": "4.5rem",
+      "type": "dimension"
+    },
+    "7xl--line-height": {
+      "value": "1",
+      "type": "dimension"
+    },
+    "8xl": {
+      "value": "6rem",
+      "type": "dimension"
+    },
+    "8xl--line-height": {
+      "value": "1",
+      "type": "dimension"
+    },
+    "9xl": {
+      "value": "8rem",
+      "type": "dimension"
+    },
+    "9xl--line-height": {
+      "value": "1",
+      "type": "dimension"
+    }
+  },
+  "tracking": {
+    "tighter": {
+      "value": "-0.05em",
+      "type": "dimension"
+    },
+    "tight": {
+      "value": "-0.025em",
+      "type": "dimension"
+    },
+    "normal": {
+      "value": "0em",
+      "type": "dimension"
+    },
+    "wide": {
+      "value": "0.025em",
+      "type": "dimension"
+    },
+    "wider": {
+      "value": "0.05em",
+      "type": "dimension"
+    },
+    "widest": {
+      "value": "0.1em",
+      "type": "dimension"
+    }
+  },
+  "leading": {
+    "tight": {
+      "value": 1.25,
+      "type": "number"
+    },
+    "snug": {
+      "value": 1.375,
+      "type": "number"
+    },
+    "normal": {
+      "value": 1.5,
+      "type": "number"
+    },
+    "relaxed": {
+      "value": 1.625,
+      "type": "number"
+    },
+    "loose": {
+      "value": 2,
+      "type": "number"
+    }
+  }
+}

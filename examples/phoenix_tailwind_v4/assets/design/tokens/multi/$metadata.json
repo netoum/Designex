@@ -1,0 +1,9 @@
+{
+  "tokenSetOrder": [
+    "tailwind/color",
+    "tailwind/effect",
+    "tailwind/font",
+    "tailwind/size",
+    "tailwind/text"
+  ]
+}

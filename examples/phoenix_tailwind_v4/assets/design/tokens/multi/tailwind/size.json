@@ -1,0 +1,144 @@
+{
+  "spacing": {
+    "value": "0.25rem",
+    "type": "dimension"
+  },
+  "breakpoint": {
+    "sm": {
+      "value": "40rem",
+      "type": "dimension"
+    },
+    "md": {
+      "value": "48rem",
+      "type": "dimension"
+    },
+    "lg": {
+      "value": "64rem",
+      "type": "dimension"
+    },
+    "xl": {
+      "value": "80rem",
+      "type": "dimension"
+    },
+    "2xl": {
+      "value": "96rem",
+      "type": "dimension"
+    }
+  },
+  "container": {
+    "3xs": {
+      "value": "16rem",
+      "type": "dimension"
+    },
+    "2xs": {
+      "value": "18rem",
+      "type": "dimension"
+    },
+    "xs": {
+      "value": "20rem",
+      "type": "dimension"
+    },
+    "sm": {
+      "value": "24rem",
+      "type": "dimension"
+    },
+    "md": {
+      "value": "28rem",
+      "type": "dimension"
+    },
+    "lg": {
+      "value": "32rem",
+      "type": "dimension"
+    },
+    "xl": {
+      "value": "36rem",
+      "type": "dimension"
+    },
+    "2xl": {
+      "value": "42rem",
+      "type": "dimension"
+    },
+    "3xl": {
+      "value": "48rem",
+      "type": "dimension"
+    },
+    "4xl": {
+      "value": "56rem",
+      "type": "dimension"
+    },
+    "5xl": {
+      "value": "64rem",
+      "type": "dimension"
+    },
+    "6xl": {
+      "value": "72rem",
+      "type": "dimension"
+    },
+    "7xl": {
+      "value": "80rem",
+      "type": "dimension"
+    }
+  },
+  "radius": {
+    "xs": {
+      "value": "0.125rem",
+      "type": "dimension"
+    },
+    "sm": {
+      "value": "0.25rem",
+      "type": "dimension"
+    },
+    "md": {
+      "value": "0.375rem",
+      "type": "dimension"
+    },
+    "lg": {
+      "value": "0.5rem",
+      "type": "dimension"
+    },
+    "xl": {
+      "value": "0.75rem",
+      "type": "dimension"
+    },
+    "2xl": {
+      "value": "1rem",
+      "type": "dimension"
+    },
+    "3xl": {
+      "value": "1.5rem",
+      "type": "dimension"
+    },
+    "4xl": {
+      "value": "2rem",
+      "type": "dimension"
+    }
+  },
+  "perspective": {
+    "dramatic": {
+      "type": "dimension",
+      "value": "100px"
+    },
+    "near": {
+      "type": "dimension",
+      "value": "300px"
+    },
+    "normal": {
+      "type": "dimension",
+      "value": "500px"
+    },
+    "midrange": {
+      "type": "dimension",
+      "value": "800px"
+    },
+    "distant": {
+      "type": "dimension",
+      "value": "1200px"
+    }
+  },
+  "aspect": {
+    "video": {
+      "type": "other",
+      "value": "16 / 9"
+    }
+  }
+}

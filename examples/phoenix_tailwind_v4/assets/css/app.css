@@ -1,0 +1,23 @@
+/* @import "tailwindcss" source("../.."); */
+
+/* This file is for your main application CSS */
+
+/* default is to use prefers-color-scheme */
+/* if you want dark mode via class: */
+/* @variant dark (&:where(.dark, .dark *)); */
+
+@variant phx-click-loading (.phx-click-loading&, .phx-click-loading &);
+@variant phx-submit-loading (.phx-submit-loading&, .phx-submit-loading &);
+@variant phx-change-loading (.phx-change-loading&, .phx-change-loading &);
+
+@plugin "./heroicons.tailwind.plugin.js";
+
+@import "tailwindcss";
+@source "../..";
+
+
+@theme {
+    --color-brand: oklch(66.64% 0.2202 37.57);
+}
+
+@import "../design/build/css/tailwind.css"

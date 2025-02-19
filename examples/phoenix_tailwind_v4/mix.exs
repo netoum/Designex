@@ -1,4 +1,4 @@
-defmodule Demo.MixProject do
+defmodule PhoenixTailwindV4.MixProject do
   use Mix.Project
 
   def project do
@@ -18,7 +18,7 @@ defmodule Demo.MixProject do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {Demo.Application, []},
+      mod: {PhoenixTailwindV4.Application, []},
       extra_applications: [:logger, :runtime_tools]
     ]
   end
@@ -75,10 +75,10 @@ defmodule Demo.MixProject do
       "ecto.reset": ["ecto.drop", "ecto.setup"],
       test: ["ecto.create --quiet", "ecto.migrate --quiet", "test"],
       "assets.setup": ["tailwind.install --if-missing", "esbuild.install --if-missing"],
-      "assets.build": ["tailwind demo", "esbuild demo"],
+      "assets.build": ["tailwind phoenix_tailwind_v4", "esbuild phoenix_tailwind_v4"],
       "assets.deploy": [
-        "tailwind demo --minify",
-        "esbuild demo --minify",
+        "tailwind phoenix_tailwind_v4 --minify",
+        "esbuild phoenix_tailwind_v4 --minify",
         "phx.digest"
       ]
     ]
